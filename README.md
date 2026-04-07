@@ -31,7 +31,9 @@ However, as shown in this work, balancing these criteria is challenging for exis
 1. a **decomposition** step to extract 3D wavelet coefficients $`\mathbf{C}`$ from the original input $`\mathbf{X}`$
 2. a **perturbation** step to generate $`\mathbf{C}'`$ that minimizes the total loss $`\mathcal{L}`$
 3. a **reconstruction** step using the inverse 3D wavelet transform to generate the adversarial input $`\mathbf{X}'`$
-   
+
+In particular, we propose a **perturbation strategy** over different sub-bands to achieve our goal, and provide both empirical and theoretical support in the paper.
+
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/e5f993d0-2f93-4f3f-99b1-cc404a3cebbd" />
 
 # run_example.ipynb Overview
